@@ -2,6 +2,20 @@
 <html>
 <head>
   <style>
+    @keyframes yoylecake {
+      0% {color: red;}
+      5% {color: orange;}
+      15% {color: yellow;}
+      25% {color: green;}
+      35% {color: blue;}
+      45% {color: purple;}
+      55% {color: red;}
+      65% {color: orange;}
+      75% {color: yellow;}
+      85% {color: green;}
+      95% {color: blue;}
+      100% {color: purple;}
+    }
   body {
     font-family: "Helvetica", sans-serif;
     background: rgb(207, 224, 204);
@@ -13,6 +27,7 @@ h2 {
     font-family: monospace;
     }
     #marchdiv {
+      border-radius: 20px;
       background: rgb(128, 224, 112);
       position: absolute;
       width: 100%;
@@ -34,6 +49,12 @@ h2 {
     }
     #coding{
          background: rgb(128,244,112);
+
+    }
+        #yoylecake{
+         animation-name: yoylecake;
+          animation-duration: 5s;
+             animation-iteration-count: infinite;
 
     }
     
@@ -105,8 +126,20 @@ h2 {
   Type in your code by copy + pasting it in. Mess around until it looks good. </p>
   <br>
   <h2>Basics of CSS</h2>
-  <p>CSS, the best part of websites. This code will include coloring, image placement, id tags, fonts, all that. Yay! <br>
-  By the way, </p>
+  <p>CSS, the best part of websites. This code will include coloring, image placement, id tags, fonts, <span id= "yoylecake"> <strong>ANIMATION</strong>, </span>all that. Yay! <br>
+  By the way, CSS stands for Cascading Style Spreadsheets, a title I do not care of and I don't know why.<br>
+  CSS is complicated to understand, but same as HTML. First tag: id's. ID's aren't really "tags", they're more taggers.<br>
+  So get an element, such as the &lt;p&gt; element. Now add "id = "(element name)". Now it should look like &lt;p id= "example"&gt;. <br>
+  So now that this element is id'd, we need to add the description. This is a large block of text describing an element. It looks like:<br>
+        #transport {<br>
+        ;<br>
+    Now all the color tags should go under this id, like: <br>
+     #transport {<br>
+         background: rgb (21,46,28);
+    <br>
+        ;
+    <br>
+  </p>
   <br><br><br>
   <a href = "http://www.kidrex.org">
     My Friend's Website, recommended for beginners. </a>
