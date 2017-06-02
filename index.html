@@ -48,6 +48,11 @@ h2 {
         right: 276px;
         
     }
+        #boxy{
+    outline-style : double;
+          outline-width = 5px;
+        
+    }
     #coding{
          background: rgb(128,244,112);
 
@@ -73,7 +78,7 @@ h2 {
   Learn HTML! I'll show you how, and give you some good websites. <br>
   Ok, so do you notice this font? This'll change soon. Pay attention. Now, we can start. <br>
   Or whatever, I'll just place jelly below me. (?...) </p>
-  <img src="https://www.khanacademy.org/images/avatars/svg/marcimus.svg" alt="Pig of the Golden Order" width="200"> 
+  <img src="https://www.khanacademy.org/images/avatars/svg/marcimus.svg" alt="Jelly of the Golden Order" width="200"> 
   <br>
   <h2>Why a Website?</h2> 
   <p>But why would you make a website? Well, there's a list of reasons. Here! <br></p>
@@ -103,7 +108,7 @@ h2 {
     &lt;title&gt;(insert name of website)&lt;/title&gt;<br>&lt;/head&gt;. The head tag is where you put things that won't actually show on the website.<br>
   The title tag is what'll show up when someone bookmarks your website or has a tab open. (Notice how it says "Editing (name)/index.html")<br>
   Now do the same thing below the /head line. Type &lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;. The p tag stands for paragraph. It's the basic text block! <br>
-  That's all the basic stuff. Get ready to get advanced!</p>
+  And try the h1-h6 tags. That's h1, h2, h3, h4, h5, and h6. 6 is smallest, 1 is largest. H stands for heading. As in: &lt;&gt;Gemstone Mining&lt;/h2&gt;That's all the basic stuff. Get ready to get advanced!</p>
   <br>
   <h2>Normal HTML...</h2>
   <p>It... it gets more advanced! (brace for tables) <br>
@@ -166,10 +171,60 @@ h2 {
     padding: 25px;<br>
     border: 50px;<br>
     margin: 15px;<br>
-    This would change the "width" of the part. But to dash or dot or solidify, do not use Border. Use Outline. To be specific, outline-style.<br>
-    So there are multiple things you can use for outline. There's dotted, dashed, solid, and double. Dotted makes it dotted, dashed dashed, solid solid, and double makes two borders.</p>
+    This would change the "width" of the part. So to change the "outline", we'd use border tags.<br>
+    So there are multiple things you can use for border. There's dotted, dashed, solid, and double. Dotted makes it dotted, dashed dashed, solid solid, and double makes two borders. There are also more advanced styles, such as: <br>
+    </p>
+      <ul>
+      <li>ridge</li>
+      <li>groove</li>
+      <li>inset</li>
+      <li>outset</li>
+    </ul>
+    <p>Why do I have to seperate my paragraph tags? Anyways, those advanced ones only work with advanced CSS.  Let's go!
+    Box model pic: <img src = "https://www.kasandbox.org/programming-images/misc/boxmodel.png" id= "boxy"></p>
+    <br>
+    <h2>Advanced CSS - Coding can be exhausting!</h2>
+    <p>Have I forgotten anything? I haven't gone to JS yet, so no feedback, sadly. Alright. So, there's border-width, which is already self-explanatory.<br>
+    But since I must do my job (why am I doing this for no self-benefit? for a project, of course.) and to do my job I must explain all. <br>
+    The border-width is used with px and em (not sure how'd you use em) and says "This border will be 12px thick." Now that's a lot, so you might not want that many pixels. <br>
+    In that box model image, I used border-width = 5px and double for the border. As for "only work", the advanced ones (Ridge, groove, inset, outset) need one tag. <br>
+    This tag is outline-color. So that's also obvious. But again, yadda yadda. The border-color tag works the same as the color tag. Colors the border. I didn't use border-radius in the box model, though.<br>
+    Border-radius will round the corners. So if you have border-radius = 25px; then it would be rounded by something I do not know of. Wow, even though I stretched the work out, I still feel as tired and drowsy as a bear in winter.<br>
+    I can only fit in animation, and ending. This is how I get animation:
+      Id tag, then <br>        
+      #yoylecake{<br>
+         animation-name: yoylecake;<br>
+          animation-duration: 5s;<br>
+             animation-iteration-count: infinite;<br>
+
+    }
+    <br> So animation-name defines the name of the animation, animation-duration: 5s indicates how long one cycle is, and iteration-count how many times it loops. <br>
+      Then:<br>
+          @keyframes yoylecake {<br>
+      0% {color: red;}<br>
+      5% {color: orange;}<br>
+      15% {color: yellow;}<br>
+      25% {color: green;}<br>
+      35% {color: blue;}<br>
+      45% {color: purple;}<br>
+      55% {color: red;}<br>
+      65% {color: orange;}<br>
+      75% {color: yellow;}<br>
+      85% {color: green;}<br>
+      95% {color: blue;}<br>
+      100% {color: purple;}<br>
+      So the percentage indicates how far in the animation the color will change, and the color tag right after indicates what happens at that point. Wowee. <br>
+      
   
-  <br><br><br>
+      
+    </p>
+    <h2>Have a great day. Or night.<h2>
+      <p>I hope you have learned something in my... interesting webpage. This is all true as of June 1st, 2017. I end this exercise with the hope you can come out fresh.<br>
+      A few tips: The process of building a website can take a long time. Don't get discouraged. The product is almost always amazing. And finally:
+      Keep to your website. If you procrastinate, you will take forever to build it. Try to set a time goal. Dates. Maybe a meeting with yourself?<br>
+      Farewell.
+     </p>
+    <br><br><br>
   <br><br><br><br><br>
   <h5>Made using GitHub Pages</h5>
   </table>
